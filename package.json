@@ -3,14 +3,11 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "14.x"
-  },
   "scripts": {
     "dev": "nodemon src",
     "devbabel": "nodemon ./src --exec babel-node",
-    "build": "babel src -d public",
-    "start": "node ./public"
+    "build": "babel src -d dist",
+    "start": "node ./dist"
   },
   "keywords": ["nodejs","express","mongodb","crud"],
   "author": "Elliot Anthony Madariaga <elliotanthonydev@gmail.com>",

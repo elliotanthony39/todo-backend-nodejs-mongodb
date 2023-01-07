@@ -1,0 +1,29 @@
+{
+  "name": "todo-backend-nodejs-mongodb",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src",
+    "devbabel": "nodemon ./src --exec babel-node",
+    "build": "babel src -d dist",
+    "start": "node ./dist"
+  },
+  "keywords": ["nodejs","express","mongodb","crud"],
+  "author": "Elliot Anthony Madariaga <elliotanthonydev@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "nodemon": "^2.0.20"
+  }
+}

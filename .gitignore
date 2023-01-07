@@ -1,0 +1,11 @@
+#enviroment variables
+.env
+
+#node files
+node_modules
+
+#dist files
+dist
+
+#package json
+package-lock.json

@@ -1,6 +1,6 @@
 # todo-backend-nodejs-mongodb
 This is the Backend part of a Full-Stack project using nodeJS, expressJS and mongoDB.
- - [Project in production](https://todo-backend-nodejs-mongodb-production.up.railway.app/tasks)
+ - [Project in production](https://todo-backend-nodejs-mongodb-production.up.railway.app/)
 
 ## Available Commands
  - npm run dev ---> Run the server without compiling in babel (checked)

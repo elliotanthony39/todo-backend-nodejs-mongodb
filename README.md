@@ -1,12 +1,13 @@
 # todo-backend-nodejs-mongodb
-This is the Backend part of a Full-Stack project using nodeJS, expressJS and mongoDB.
- - [Project in production](https://todo-backend-nodejs-mongodb-production.up.railway.app/)
+This is the Backend part of a Full-Stack CRUD project using nodeJS, expressJS and mongoDB.
+ - [Project in production](https://todo-backend-nodejs-mongodb-production.up.railway.app/) `Backend`
+ - [View Front-End](https://elliotanthony39.github.io/todo-frontend-react-rtk/) `Front-End`
 
 ## Available Commands
- - npm run dev ---> Run the server without compiling in babel (checked)
- - npm run devbabel ---> Run the server by compiling babel (without checking)
- - npm run build ---> Compiles all code to be compatible with all node interpreters (checked)
- - npm start ---> Run the server in production mode (checked)
+ - `npm run dev` ---> Run the server without compiling in babel (checked)
+ - `npm run devbabel` ---> Run the server by compiling babel, if you use modern syntax (without checking)
+ - `npm run build` ---> Compiles all code to be compatible with all node interpreters (checked)
+ - `npm start` ---> Run the server in production mode (checked)
 
 ## Environment Variables
  - DB_USER provided by mongoDB Atlas
